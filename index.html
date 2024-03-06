@@ -410,7 +410,7 @@
                 <input type="text" placeholder="Enter your email id" class="input input-bordered w-full max-w-xs " />
               </div>
               <div class="mt-10 ">
-                <!-- Open the modal using ID.showModal() method -->
+              <!-- id method -->
                 <button id="modalbutton" disabled class="btn w-full bg-[#1DD100] text-2xl text-white"
                   onclick="my_modal_5.showModal()">Next</button>
                 <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
@@ -446,37 +446,36 @@
   </main>
 
   <!-- Footer Section -->
-  <footer class=" bg-[#030712] text-white">
-    <div class="max-w-6xl mx-auto py-28">
-      <div class="flex flex-col lg:flex-row justify-center lg:justify-between">
-        <div class="text-center lg:text-start mb-8">
-          <h1 class="text-4xl font-bold mb-4">Lubs-Transport</h1>
-          <p>L-Ticket is a digital platform to make your daily commuting better.</p>
-        </div>
-        <div class="flex flex-col justify-center items-center gap-3">
-          <p class="text-xl ">Download Our App</p>
-          <div class="flex gap-3 items-center border-2 border-gray-500 rounded-3xl p-3">
-            <img src="./images/playstore.png" alt="">
-            <div>
-              <p>GET IN ON</p>
-              <h3 class="text-2xl font-bold title-font">Google Play</h3>
+  <footer class="bg-[#030712] text-white">
+    <div class="max-w-6xl mx-auto py-10 md:py-20 lg:py-28">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-between">
+            <div class="text-center lg:text-start mb-8 lg:mb-0"> <!-- Adjusted margin for medium screens -->
+                <h1 class="text-4xl font-bold mb-4">Lubs-Transport</h1>
+                <p class="text-sm md:text-base">L-Ticket is a digital platform to make your daily commuting better.</p> <!-- Adjusted font size for small and medium screens -->
             </div>
-          </div>
+            <div class="flex flex-col justify-center items-center gap-3">
+                <p class="text-xl">Download Our App</p>
+                <div class="flex gap-3 items-center border-2 border-gray-500 rounded-3xl p-3">
+                    <img src="./images/playstore.png" alt="">
+                    <div>
+                        <p>GET IN ON</p>
+                        <h3 class="text-2xl font-bold title-font">Google Play</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <hr class="border-dashed border-gray-400 border my-10">
-      <div class="flex flex-col lg:flex-row gap-4 justify-between">
-        <p class="text-[#ffffffb3]">@All rights reserved, L-Ticket services limited.2024</p>
-        <div class="flex flex-col lg:flex-row gap-8 text-center">
-          <a href="#">Terms & Condition</a>
-          <a href="#">Return & refund policy</a>
-          <a href="#">Privacy policy</a>
+        <hr class="border-dashed border-gray-400 border my-6 md:my-10"> <!-- Adjusted margin for medium screens -->
+        <div class="flex flex-col lg:flex-row gap-4 justify-between">
+            <p class="text-[#ffffffb3] text-sm">© All rights reserved, L-Ticket services limited.2024</p> <!-- Adjusted font size for small screens -->
+            <div class="flex flex-col lg:flex-row gap-8 text-center">
+                <a href="#" class="text-sm">Terms & Condition</a> <!-- Adjusted font size for small screens -->
+                <a href="#" class="text-sm">Return & refund policy</a> <!-- Adjusted font size for small screens -->
+                <a href="#" class="text-sm">Privacy policy</a> <!-- Adjusted font size for small screens -->
+            </div>
         </div>
-
-      </div>
     </div>
+</footer>
 
-  </footer>
 
 
   <script src="js/script.js"></script>
